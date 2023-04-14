@@ -1,2 +1,422 @@
 # 1673
 Three.js可视化企业实战WEBGL课 | 完结
+
+### 微:NoBug1024 
+
+
+课程介绍：
+
+课程概述
+
+
+全网领先的three.js的 WEB 3D可视化课程。课程全面系统的讲解WEB 3D可视化技术，涵盖目前企业开发的各种应用技术和项目案例。包含智慧园区、智慧城市、智慧工厂。学完可以直接应用在工作中，不仅仅讲three、cesium的企业项目应用，还讲底层的webgl着色器编写和修改各种材质和后期合成效果以及blender建模动画哦。
+〖课程目录〗:
+
+
+- ├──01. 认识three.js与开发环境搭建  
+- |   ├──01.课程介绍.mp4  115.55M
+- |   ├──02.本地搭建threejs官方网站.mp4  55.87M
+- |   ├──03.使用parcel搭建three.js开发环境.mp4  99.04M
+- |   ├──04.关于运行搭建three出现的问题.mp4  51.79M
+- |   ├──05.使用three.js渲染第一个场景和物体.mp4  181.88M
+- |   └──06.轨道控制器查看物体.mp4  32.42M
+- ├──02 Three.js开发入门与调试设置  
+- |   ├──01.添加坐标轴辅助器(1).mp4  17.10M
+- |   ├──02.设置物体移动.mp4  23.72M
+- |   ├──03.物体的缩放与旋转.mp4  29.31M
+- |   ├──04.应用requestAnimationFrame.mp4  22.85M
+- |   ├──05.通过Clock跟踪时间处理动画.mp4  32.93M
+- |   ├──06.Gsap动画库基本使用与原理.mp4  43.24M
+- |   ├──07.Gsap控制动画属性与方法.mp4  32.93M
+- |   ├──08.根据尺寸变化实现自适应画面.mp4  44.58M
+- |   ├──09.调用js接口控制画布全屏和退出全屏.mp4  33.33M
+- |   └──10.应用图形用户界面更改变量.mp4  77.35M
+- ├──03 全面认识threejs物体  
+- |   ├──01.掌握几何体顶点_UV_法向属性.mp4  43.81M
+- |   ├──02.BufferGeometry设置顶点创建矩形.mp4  39.69M
+- |   ├──03.生成酷炫三角形科技物体.mp4  44.80M
+- |   └──04.常用网格几何体.mp4  45.23M
+- ├──04 详解材质与纹理  
+- |   ├──01.初识材质与纹理.mp4  40.17M
+- |   ├──02.详解纹理偏移_旋转_重复.mp4  54.54M
+- |   ├──03.设置纹理显示算法与mipmap.mp4  43.30M
+- |   ├──04.透明材质与透明纹理.mp4  37.07M
+- |   └──05.环境遮挡贴图与强度.mp4  36.28M
+- ├──05 详解PBR材质纹理  
+- |   ├──01.详解PBR物理渲染.mp4  41.41M
+- |   ├──02.标准网格材质与光照物理效果 .mp4  42.89M
+- |   ├──03.置换贴图与顶点细分设置.mp4  39.24M
+- |   ├──04,设置粗糙度与粗糙度贴图.mp4  25.49M
+- |   ├──05.设置金属度与金属贴图.mp4  21.45M
+- |   ├──06.法线贴图应用.mp4  16.36M
+- |   ├──07.如何获取各种类型纹理贴图.mp4  31.80M
+- |   ├──08.纹理加载进度情况.mp4  85.82M
+- |   ├──09.详解环境贴图.mp4  55.29M
+- |   └──10.经纬线映射贴图与HDR.mp4  66.25M
+- ├──06 详解灯光与阴影  
+- |   ├──01.灯光与阴影的关系与设置.mp4  66.10M
+- |   ├──02.平行关阴影属性与阴影相机原理.mp4  37.19M
+- |   ├──03.详解聚光灯各种属性与应用.mp4  67.75M
+- |   └──04.详解点光源属性与应用.mp4  69.83M
+- ├──07 精通粒子特效  
+- |   ├──01.初识Points与点材质.mp4  53.39M
+- |   ├──02,深度解析点材质属性.mp4  53.41M
+- |   ├──03.应用顶点着色打造绚丽多彩的星空.mp4  56.83M
+- |   ├──04.通过封装与相机裁剪实现漫天飞舞的雪花.mp4  94.96M
+- |   ├──05.运用数学知识打造复杂形状臂旋星系01.mp4  81.88M
+- |   ├──06.运用数学知识打造复杂形状臂旋星系02.mp4  29.79M
+- |   ├──07.运用数学知识打造复杂形状臂旋星系03.mp4  71.02M
+- |   └──08.运用颜色收敛方法设置星系臂旋渐变.mp4  45.48M
+- ├──08 详解光线投射与物体交互  
+- |   └──01.精讲投射光线实现3维物体交互.mp4  147.11M
+- ├──09 打造3D全屏滚动官网  
+- |   ├──01.设置页面结构与样式.mp4  130.41M
+- |   ├──02.同步屏幕滚动与相机位置.mp4  165.38M
+- |   ├──03.设置第三屏特效.mp4  71.48M
+- |   ├──04.切屏时候触发当屏物体特效.mp4  114.32M
+- |   ├──05,gsap控制网页切屏文字动画.mp4  32.15M
+- |   ├──06.鼠标控制相机摇晃.mp4  82.93M
+- |   └──07.设置滚动条隐藏的方式.mp4  11.07M
+- ├──10 应用物理引擎设置物体相互作用  
+- |   ├──01.认识物理引擎与cannon安装.mp4  49.52M
+- |   ├──02.使用物理引擎关联Threejs物体.mp4  105.82M
+- |   ├──03.设置固定不动的地面与小球碰撞.mp4  29.96M
+- |   ├──04.监听碰撞事件和控制碰撞音效.mp4  39.89M
+- |   ├──05.关联材质设置摩擦与弹性系数.mp4  35.15M
+- |   ├──06.立方体相互碰撞后旋转效果.mp4  77.98M
+- |   └──07.给物体施加力.mp4  17.35M
+- ├──11 WEBGL与GPU渲染原理（难点）后期再消化亦可  
+- |   ├──01.渲染管线.mp4  23.02M
+- |   ├──02.细讲渲染流程.mp4  54.66M
+- |   ├──03.WEBGL绘制三角形.mp4  101.55M
+- |   ├──04.缩放矩阵与变量.mp4  73.24M
+- |   └──05.着色器glsl基本规范.mp4  23.84M
+- ├──12 入门着色器编程  
+- |   ├──01.初识着色器语言.mp4  47.88M
+- |   ├──02.着色器插件安装与文件导入开发.mp4  29.95M
+- |   ├──03.认识着色器变量.mp4  60.98M
+- |   ├──04.控制顶点位置打造波浪形状.mp4  62.59M
+- |   └──05.传递变量打造动画与uv采样纹理.mp4  38.77M
+- ├──13 进阶着色器编程  
+- |   ├──01.着色器编写各类型图案.mp4  202.96M
+- |   ├──02.着色器编写各类型图案2.mp4  215.72M
+- |   ├──03.shader着色器编写高级图案.mp4  188.09M
+- |   ├──04.shader着色器编写高级图案2.mp4  208.79M
+- |   ├──05.shader着色器打造漫天飞舞孔明灯1.mp4  317.59M
+- |   └──06.shader着色器打造漫天飞舞孔明灯2.mp4  211.96M
+- ├──14 着色器打造烟雾水云效果  
+- |   ├──01.烟雾水效果介绍与代码准备.mp4  48.28M
+- |   ├──02.sin函数与噪声函数混合.mp4  93.25M
+- |   ├──03.设置sin与噪声参数.mp4  54.93M
+- |   ├──04.时间打造流动效果.mp4  45.75M
+- |   ├──05.设置水流和波纹方向与速度.mp4  118.98M
+- |   ├──06.使用官方提供的水模型.mp4  60.59M
+- |   └──07.打造沙滩_水池.mp4  150.62M
+- ├──15 着色器设置点材质  
+- |   ├──01.着色器设置点材质基本设置.mp4  78.88M
+- |   ├──02.点着色器图形设置原理.mp4  33.48M
+- |   ├──03.使用纹理设置点着色器材质.mp4  35.83M
+- |   ├──04.Points中生成不同点图案.mp4  94.99M
+- |   ├──05.根据视图Position设置点图案大小.mp4  19.00M
+- |   ├──06.着色器设置顶点旋转打造臂旋星系.mp4  27.18M
+- |   └──07.着色器设置顶点颜色打造渐变星系.mp4  19.77M
+- ├──16 炫丽烟花交互项目案例  
+- |   ├──01.点着色器设置炫丽烟花项目案例01.mp4  301.94M
+- |   ├──02.点着色器设置炫丽烟花项目案例02.mp4  291.25M
+- |   ├──03.点着色器设置炫丽烟花项目案例03(1).mp4  314.79M
+- |   └──03.点着色器设置炫丽烟花项目案例03.mp4  314.79M
+- ├──17 使用着色器加工材质  
+- |   ├──01.three框架材质原理与应用.mp4  61.81M
+- |   ├──02.修改物理光照材质制作人物被打效果01.mp4  63.55M
+- |   ├──03.修改物理光照材质制作人物被打效果02.mp4  71.99M
+- |   └──04.修改物理光照材质制作人物被打效果03.mp4  107.54M
+- ├──18 效果合成与后期处理  
+- |   ├──01.合成效果原理与设置(1).mp4  94.68M
+- |   ├──01.合成效果原理与设置.mp4  94.68M
+- |   ├──02.抗锯齿_点效果_发光_屏幕闪动等特效(1).mp4  126.89M
+- |   ├──02.抗锯齿_点效果_发光_屏幕闪动等特效.mp4  126.89M
+- |   ├──03.使用shaderPass实现自定义合成效果.mp4  90.32M
+- |   ├──04.使用法向纹理合成特色渲染镜头.mp4  72.90M
+- |   └──05.运用时间打造水底波浪动态渲染效果.mp4  40.20M
+- ├──19 HTML混合3D渲染  
+- |   ├──01.CSS2D渲染器基本使用.mp4  82.72M
+- |   ├──02.添加多个元素标签跟随物体移动.mp4  31.28M
+- |   └──03.使用射线碰撞来检测标签显示隐藏.mp4  104.82M
+- ├──20 曲线应用与轨迹运动  
+- |   ├──01.曲线使用与绘制流程.mp4  49.79M
+- |   └──02.让物体与相机沿着曲线轨迹运动.mp4  36.13M
+- ├──21 智慧城市项目准备与模型生成  
+- |   ├──01.智慧城市和项目介绍.mp4  266.82M
+- |   └──02.创建智慧城市项目并配置glsl写法支持.mp4  103.31M
+- ├──22 智慧城市各类型特效  
+- |   ├──01.多层着色器特效合并与城市光圈扩散效果01.mp4  159.55M
+- |   ├──02.直线光带掠过城市效果01.mp4  74.45M
+- |   ├──03.从下向上扫描城市特效.mp4  30.58M
+- |   ├──04.利用tube特性生成带纹理图案飞线.mp4  109.15M
+- |   ├──05.飞线方案2-着色器绘制酷炫飞线.mp4  137.62M
+- |   ├──06.函数翻折实现彗星型飞线动画.mp4  68.35M
+- |   ├──07.生成建筑线框特效.mp4  78.58M
+- |   ├──08.智慧城市光墙特效.mp4  136.18M
+- |   ├──09.智慧城市雷达扫描特效.mp4  134.88M
+- |   └──10.封装3D警告标识与点击提示事件.mp4  124.48M
+- ├──23 智慧城市大屏互动  
+- |   ├──01.添加智慧城市天空盒子和设置抗锯齿效果.mp4  49.67M
+- |   ├──02.智慧城市大屏样式与结构.mp4  115.03M
+- |   ├──03.设置Pointer-events穿透事件.mp4  27.97M
+- |   ├──04.智慧城市动态数字面板动画.mp4  166.90M
+- |   ├──05.通过接口生成城市事件列表.mp4  160.71M
+- |   ├──06.城市事件列表动态生成雷达-飞线-光墙.mp4  504.54M
+- |   └──07.大屏HTML元素与场景物体数据交互与特效展现.mp4  333.84M
+- ├──24 blender基础  
+- |   ├──01.blender下载与语言渲染设置.mp4  18.70M
+- |   ├──02.blender大纲选项开关与保存启动文件.mp4  42.73M
+- |   ├──03.界面布局与工具栏侧边栏.mp4  38.73M
+- |   ├──04.3d界面查看与相机视图.mp4  41.42M
+- |   ├──05.相机视图和透视与正交.mp4  37.57M
+- |   ├──06.局部视图与隐藏物体.mp4  36.74M
+- |   ├──07.添加与删除物体和添加物体的操作面板.mp4  31.84M
+- |   └──08.ExtraObject插件添加额外石头物体.mp4  13.88M
+- ├──25 blender操作教学  
+- |   ├──01.物体选择.mp4  29.02M
+- |   ├──02.物体移动旋转缩放设置.mp4  61.03M
+- |   ├──03.变换坐标系与变换轴心.mp4  58.83M
+- |   ├──04.吸附功能使用.mp4  35.07M
+- |   ├──05.模式切换与物体吸附.mp4  38.32M
+- |   ├──06.物体合并与分离.mp4  32.87M
+- |   ├──07.设置物体的父级和子级.mp4  26.03M
+- |   ├──08.叠加层与快速收藏夹.mp4  25.69M
+- |   ├──09.各种视图着色预览使用.mp4  59.07M
+- |   └──10.平滑与平直着色.mp4  29.21M
+- ├──26 blender建模  
+- |   ├──01.点线面基本操作.mp4  58.63M
+- |   ├──02.删除点线面基本操作.mp4  42.64M
+- |   ├──03.法向与法向翻转.mp4  36.62M
+- |   ├──04.挤出功能使用.mp4  71.56M
+- |   ├──05.倒角.mp4  44.32M
+- |   ├──06.环切与切割.mp4  63.61M
+- |   ├──07.多边形与旋转.mp4  37.30M
+- |   ├──08.光滑和随机以及滑移.mp4  36.63M
+- |   └──09.推拉_球形化_隔离顶点.mp4  37.77M
+- ├──27 blender修改器使用  
+- |   ├──01.阵列修改器.mp4  50.27M
+- |   ├──02.倒角修改器.mp4  48.33M
+- |   ├──03.布尔修改器.mp4  27.24M
+- |   ├──04.镜像修改器.mp4  29.18M
+- |   ├──05.实体化修改器.mp4  19.89M
+- |   ├──06.表面细分修改器.mp4  20.34M
+- |   └──07.字体添加.mp4  51.62M
+- ├──28 材质与原理化BSDF  
+- |   ├──01.原理化BSDF.mp4  52.31M
+- |   └──02.原理化BSDF各种属性使用.mp4  89.83M
+- ├──29 智慧园建模  
+- |   ├──01.使用纹理贴图创建大厦.mp4  71.48M
+- |   ├──02.物体设置2种材质打造大厦屋顶.mp4  73.18M
+- |   ├──03.使用image插件快速搭建房子.mp4  189.32M
+- |   ├──04.通过现实照片打造摩天大楼.mp4  178.43M
+- |   ├──05.使用建筑生成插件快速生成建筑.mp4  58.10M
+- |   ├──06.创建树.mp4  51.99M
+- |   ├──07.制作照亮路面的路灯.mp4  118.98M
+- |   ├──08.根据地图打造马路.mp4  80.66M
+- |   └──09.根据地图创建多边形建筑.mp4  42.54M
+- ├──30 打造智慧园区  
+- |   ├──01.资产库打造智慧园区.mp4  59.82M
+- |   ├──02.沃罗诺伊纹理种出随机草地.mp4  46.61M
+- |   ├──03.烘焙计算好光照阴影的纹理.mp4  104.88M
+- |   ├──04.模型优化与材质优化.mp4  127.38M
+- |   ├──05.如何优化导出模型.mp4  51.89M
+- |   ├──06.draco解压模型与场景摄像基础设置.mp4  131.43M
+- |   └──07.优化模型渲染逼近真实物理展示效果.mp4  80.61M
+- ├──31 智慧园区动画与多种游览模式  
+- |   ├──01.园区热气球动画.mp4  182.98M
+- |   ├──02.设置单一物体热气球多种动画.mp4  92.34M
+- |   ├──03.设置大屏控制物体运动模式.mp4  136.16M
+- |   ├──04.设置园区汽车运行轨迹与动画.mp4  289.48M
+- |   ├──05.园区多相机视角切换.mp4  301.68M
+- |   └──06.观览模式之轨道观览-飞行模式-第一人称模式.mp4  250.90M
+- ├──32 骨骼动画  
+- |   ├──01.创建骨骼与顶点组.mp4  108.67M
+- |   ├──02.骨骼动画制作.mp4  100.85M
+- |   ├──03.人物的骨骼动画.mp4  159.70M
+- |   └──04.如何切换控制器聚焦位置与拉近视角.mp4  52.86M
+- ├──33 变形动画  
+- |   ├──01.变形动画原理与实现.mp4  182.09M
+- |   └──02.实现花苗生长到花开效果.mp4  342.32M
+- ├──34 打造智慧工厂  
+- |   ├──01.根据户型图搭建户型结构墙体.mp4  166.84M
+- |   ├──02.平面上创建发光灯带.mp4  113.76M
+- |   ├──03.厂房楼层材质光效优化与模型加载.mp4  251.69M
+- |   ├──04.楼层结构与房间用3D科幻悬浮框标注.mp4  312.28M
+- |   ├──05根据需要微调科幻标注的位置.mp4  35.68M
+- |   ├──06.大屏控制各楼层展开显示.mp4  547.56M
+- |   ├──07.战斗机产品打散变形与组装恢复动画特效.mp4  468.57M
+- |   ├──08.将产品物体变成粒子特效.mp4  88.68M
+- |   ├──09.递归复原复杂模型生成战斗机粒子特效.mp4  221.73M
+- |   └──10.产品爆炸破碎特效与产品爆炸恢复效果.mp4  267.54M
+- ├──35 物体发光效果  
+- |   ├──01.根据需要设置单个物体轮廓发光.mp4  218.65M
+- |   └──02.分层设置物体发光特效.mp4  130.10M
+- ├──36 地理数据生成3D物体与地图  
+- |   ├──01.GEOJSON与地图下载.mp4  60.67M
+- |   ├──02.通过GEO数据生成3D地图[52it.cc 海量资源].mp4  181.87M
+- |   ├──03.与3D地图进行交互.mp4  81.74M
+- |   └──04.通过GEO生成3D线.mp4  57.65M
+- ├──37 附赠扩展：cesium入门  
+- |   ├──01.打造第一个cesium应用.mp4  120.70M
+- |   ├──02.Cesium基础设置.mp4  124.21M
+- |   ├──03.详讲viewer查看器.mp4  98.90M
+- |   ├──04.cesium天空盒.mp4  30.86M
+- |   ├──05.Cesium自定义地图与地图叠加.mp4  91.07M
+- |   └──06.添加地形与添加自定义地形.mp4  160.72M
+- ├──38 附赠扩展：cesium场景与物体  
+- |   ├──01.坐标系与坐标系数值转换.mp4  92.52M
+- |   ├──02.相机的方向和位置.mp4  129.78M
+- |   ├──03.相机动画与相机动态交互.mp4  179.33M
+- |   ├──04.添加物体与3D建筑物.mp4  131.46M
+- |   ├──05.标签与广告牌.mp4  91.61M
+- |   ├──06.3D模型添加与设置.mp4  134.33M
+- |   ├──07.椭圆_走廊_圆柱体添加与设置.mp4  83.99M
+- |   └──08.多边形_体积拆线_矩形_椭球体设置.mp4  100.22M
+- ├──39 附赠扩展：cesium精通物体材质与外观  
+- |   ├──01.Primitive创建图像物体.mp4  113.45M
+- |   ├──02.Primitive多个实体与颜色修改.mp4  91.18M
+- |   ├──03.entity和Primitive物体交互.mp4  120.95M
+- |   ├──04.entity材质.mp4  101.10M
+- |   ├──05.entity拆线材质设置.mp4  179.97M
+- |   ├──06.Appearance外观与材质.mp4  97.03M
+- |   └──07.primitive材质类型与设置.mp4  163.25M
+- ├──40 附赠扩展：cesium高级技巧-着色器编写材质与外观  
+- |   ├──01.fabric自定义着色器设置材质.mp4  69.68M
+- |   ├──02.cesium着色器自带函数与变量.mp4  104.29M
+- |   ├──03.Appearance编写着色器修改外观.mp4  80.63M
+- |   └──04.编写自定义MaterialProperty材质.mp4  138.95M
+- ├──41 附赠扩展：cesium应用各类型地理数据  
+- |   ├──01.加载渲染GEOJSON数据.mp4  71.50M
+- |   ├──02.自定义GEOJSON生成物体的样式.mp4  128.04M
+- |   ├──03.kml数据生成全球科学研究所地理标记.mp4  207.45M
+- |   ├──04.初识CZML数据与应用.mp4  33.10M
+- |   ├──05.CZML时间动态图形场景.mp4  63.74M
+- |   ├──06.追踪航班跨洋飞行.mp4  315.72M
+- |   ├──07.3DTiles与性能监控.mp4  272.15M
+- |   ├──08.根据不同条件设置3D_tiles样式.mp4  129.76M
+- |   └──09.3D_tiles高级样式设置与条件渲染.mp4  199.01M
+- └──课程资料.7z  
+- |   ├──19-智慧园区  
+- |   |   ├──01-建筑建模  
+- |   |   └──02-道路  
+- |   ├──city  
+- |   |   ├──5G系统企业  
+- |   |   ├──城市大楼  
+- |   |   ├──大楼分解管理系统  
+- |   |   ├──大型园区建设  
+- |   |   ├──仿真车间  
+- |   |   ├──工业设备可视化  
+- |   |   ├──科技园智慧管理  
+- |   |   ├──课程文件  
+- |   |   ├──配电房  
+- |   |   ├──汽车智能设备  
+- |   |   ├──桥梁隧道  
+- |   |   ├──智慧发电机数据平台  
+- |   |   ├──智慧物流  
+- |   |   ├──智慧油田  
+- |   |   ├──智慧园区平台  
+- |   |   ├──智慧中国  
+- |   |   └──智能水泵站大数据平台  
+- |   ├──textures_w3  
+- |   |   ├──animations  
+- |   |   ├──characters  
+- |   |   ├──dlc  
+- |   |   ├──engine  
+- |   |   ├──environment  
+- |   |   ├──fx  
+- |   |   ├──gameplay  
+- |   |   ├──items  
+- |   |   ├──quests  
+- |   |   ├──bob_interior.texarray.texture_0.tga  256.02kb
+- |   |   ├──bob_marble_city.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_marble_city_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_painted_wood.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_painted_wood_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_palace_buildings.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_palace_buildings_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_01.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_01_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_interior_plaster_01.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_interior_plaster_01_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_pavement_01.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_pavement_01_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_trim.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_rich_trim_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_ruins_set_01.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_ruins_set_01_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_tombstone.texarray.texture_1.tga  4.00M
+- |   |   ├──bob_tombstone_n.texarray.texture_1.tga  4.00M
+- |   |   ├──bob_walls_poor_01.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_walls_poor_01_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_walls_poor_04.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_walls_poor_04_n.texarray.texture_0.tga  4.00M
+- |   |   ├──bob_woods_poor_01.texarray.texture_0.tga  1.00M
+- |   |   ├──bob_woods_poor_01_n.texarray.texture_0.tga  1.00M
+- |   |   ├──cave_cailing.texarray.texture_0.tga  4.00M
+- |   |   ├──cave_cailing_n.texarray.texture_0.tga  1.00M
+- |   |   ├──cave_wall_ice.texarray.texture_0.tga  4.00M
+- |   |   ├──cave_wall_ice_n.texarray.texture_0.tga  4.00M
+- |   |   ├──cave_wall_terrain.texarray.texture_0.tga  4.00M
+- |   |   ├──cave_wall_terrain_n.texarray.texture_0.tga  1.00M
+- |   |   ├──cloth_masks.texarray.texture_0.tga  256.02kb
+- |   |   ├──color_pattern_array.texarray.texture_0.tga  64.02kb
+- |   |   ├──dark_messy_brick.texarray.texture_0.tga  4.00M
+- |   |   ├──dark_messy_brick_n.texarray.texture_0.tga  4.00M
+- |   |   ├──ice_snow.texarray.texture_0.tga  4.00M
+- |   |   ├──ice_snow_n.texarray.texture_0.tga  4.00M
+- |   |   ├──interior_array.texarray.texture_0.tga  256.02kb
+- |   |   ├──kaer_morhen_exterior_allwall.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_exterior_allwall_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_floor_array.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_floor_array_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_roof.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_roof_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_tex_array.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_tower_colored.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_tower_colored_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_wall.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_wall_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_well.texarray.texture_0.tga  4.00M
+- |   |   ├──kaer_morhen_well_n.texarray.texture_0.tga  4.00M
+- |   |   ├──kear_morhen_tex_array_n.texarray.texture_0.tga  4.00M
+- |   |   ├──pattern_array.texarray.texture_0.tga  256.02kb
+- |   |   ├──poor_storehouse_port_int_floor.texarray.texture_0.tga  4.00M
+- |   |   ├──poor_storehouse_port_int_floor_n.texarray.texture_0.tga  4.00M
+- |   |   ├──red_brick.texarray.texture_0.tga  2.00M
+- |   |   ├──red_brick_n.texarray.texture_0.tga  2.00M
+- |   |   ├──rock_wall_array.texarray.texture_0.tga  4.00M
+- |   |   ├──rock_wall_array_n.texarray.texture_0.tga  4.00M
+- |   |   ├──rune_noises.texarray.texture_0.tga  256.02kb
+- |   |   ├──skellig_cobblestone_floor.texarray.texture_0.tga  4.00M
+- |   |   └──skellig_cobblestone_floor_n.texarray.texture_0.tga  4.00M
+- |   ├──【公开课23】800+的Blender材质库，你值得拥有！  
+- |   |   ├──alarm_clock_01_1k.blend.zip  1.71M
+- |   |   ├──antique_ceramic_vase_01_1k.blend.zip  917.73kb
+- |   |   ├──asset-demo-bundle-3.0-cube-diorama.zip  11.07M
+- |   |   ├──asset-demo-bundle-3.0-ellie-animation.zip  24.31M
+- |   |   ├──B3DMatPack1,2.zip  33.68M
+- |   |   ├──Blender 特训班.png  1.29M
+- |   |   ├──outdoor_table_chair_set_01_1k.blend.zip  17.88M
+- |   |   ├──postcard_set_01_1k.blend.zip  1.28M
+- |   |   ├──potted_plant_04_1k.blend.zip  2.21M
+- |   |   ├──round_wooden_table_01_1k.blend.zip  2.39M
+- |   |   ├──russian_food_cans_01_1k.blend.zip  5.08M
+- |   |   ├──standing_chalkboard_01_1k.blend.zip  13.97M
+- |   |   ├──steel_frame_shelves_01_1k.blend.zip  2.30M
+- |   |   └──wooden_table_02_1k.blend.zip  1.64M
+- |   ├──Architecture_Human.blend  441.65M
+- |   ├──Architecture_NotHuman.blend  64.15M
+- |   ├──blender_assets.cats.txt  174.04kb
+- |   ├──Decorations.blend  359.65M
+- |   ├──Items_Misc.blend  47.07M
+- |   ├──Weapons_QuestItems_Cutscenes.blend  136.41M
+- |   ├──witcher3_materials.blend  155.54kb
+- |   ├──床.zip  337.70M
+- |   ├──人物.rar  211.42M
+- |   ├──室内资产库.rar  621.97M
+- |   └──智慧城市案例素材.zip  610.65M
+- 
